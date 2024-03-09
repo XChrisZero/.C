@@ -1,2 +1,0 @@
-# Anhanguera
-Aprendendo.C 
