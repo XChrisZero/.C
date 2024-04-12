@@ -3,7 +3,6 @@
 int main()
 {
 float n1, n2, n3;
-int contador = 1;
 
 printf (" Digite um numero: \n");
 scanf ( "%f",&n1 );
