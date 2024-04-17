@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <stdbool.h>  /*biblioteca booleana foi incluida pq */
+#include <stdbool.h>  /*biblioteca booleana foi incluida */
 int main()
 {
-    bool controle = false; /* quando o controle terno mesmo valor q false Vai entrar entrar no WHILE*/
+    bool controle = false; /* quando o controle ter o mesmo valor q false Vai entrar entrar no WHILE*/
     int n1;
     
     while(controle == false) /* esse while(enquanto) ==false é Para ele rodar até ele for verdadeiro, no caso enquanto ele for false ele vai rodar */
