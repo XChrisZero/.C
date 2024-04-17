@@ -16,7 +16,7 @@ int main()
  } /* se a idade for maior ou igual a 60 E o tempo de trabalho igual a 25 */
  else if (idade >= 60 && temps1 >= 25  ){
          printf("Poderá se aposentar!");
-     }]
+     }
      /* se não for nenhuma das opições anteriores escreve na tela q nao podera se aposentar */
      else {
          printf("Não poderá se aposentar");
