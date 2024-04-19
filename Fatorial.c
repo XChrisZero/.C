@@ -2,13 +2,15 @@
 
 int main()
 {
-    int num, resultado =1;
-    printf ("digite um numero: ");
-    scanf ("%i", &num);
+int num, resultado =1;
     
-    while (num >=  1 ) {
+printf ("digite um numero: ");
+scanf ("%i", &num);
+    
+     while (num >=  1 ) {
         resultado = resultado * num; 
-        printf ("%i, ",resultado);
+     
+     printf ("%i, ",resultado);
         num--;
     }
 printf ("\n resultado = %i",resultado);
