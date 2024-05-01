@@ -7,12 +7,12 @@ int main()
     
     while(controle == false) /* esse while(enquanto) ==false é Para ele rodar até ele for verdadeiro, no caso enquanto ele for false ele vai rodar */
     {
-        printf("Digite um numero entre 1 e 10: ");
+        printf("Digite um numero entre 1 e 100: ");
         scanf("%i", &n1);
         
-        if (n1 >= 1 && n1 <= 10) /* && representa E, and. */
+        if (n1 >= 1 && n1 <= 100) /* && representa E and. */
         {
-            int contador;  /* para o segundo while contar ate <=10*/
+            int contador;  /* para o segundo while contar ate <=100*/
             while(contador <= 10)  /* ira rodar até 10 vezes*/
             {
                 printf("%i X %i = %i \n", n1, contador, n1 * contador);  /* tudo depois das aspas é o que está explicando os %i's*/
