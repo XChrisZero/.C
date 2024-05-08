@@ -7,7 +7,7 @@ int main()      {
     printf ( "Arrays ordenado ");
     
     for (cont = 0; cont < 5; cont++)       { /* no laço de repetição FOR, sempre declarar a varialvel, uma condição para ela e um contador*/ 
-     printf ( "%i ", list[cont]); } /*o contador esta dentro da lista por que faz com que a lista se repita contando, e nao repetindo o mesmo*/
+     printf ( "%i ", list[cont]); } /*a variavel de controle 'cont' dentro da lista 'list' é para atribuir a posição do valor dentro da 'list'*/
 
     printf ( "\n\n");
     printf ( "Arrays invertido ");
